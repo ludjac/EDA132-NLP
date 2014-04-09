@@ -1,0 +1,61 @@
+------------------------------------------
+Stats for POS-tagging:
+Tagger:  Baseline
+ 
+Corpus for training:  CoNLL2009-ST-English-train-pos.txt
+               Words: 997446
+     Unique POS-tags: 49
+        Unique words: 39783
+ 
+Corpus for tagging:   CoNLL2009-ST-English-development-pos.txt
+               Words: 34702
+ 
+Accuracy:  0.921964151922
+Number times word missing:  806
+------------------------------------------
+------------------------------------------
+Stats for POS-tagging:
+Tagger:  Viterbi
+ 
+Corpus for training:  CoNLL2009-ST-English-train-pos.txt
+               Words: 997446
+     Unique POS-tags: 49
+        Unique words: 39783
+ 
+Corpus for tagging:   CoNLL2009-ST-English-development-pos.txt
+               Words: 34702
+ 
+Accuracy:  0.936458993718
+Number times word missing:  806
+------------------------------------------
+------------------------------------------
+Stats for POS-tagging:
+Tagger:  Noisy Channel
+Max sentence length:  8
+ 
+Corpus for training:  CoNLL2009-ST-English-train-pos.txt
+               Words: 997446
+     Unique POS-tags: 49
+        Unique words: 39783
+ 
+Corpus for tagging:   CoNLL2009-ST-English-development-pos.txt
+               Words: 445
+ 
+Accuracy:  0.876404494382
+Number times word missing:  148
+------------------------------------------
+------------------------------------------
+Stats for POS-tagging:
+Tagger:  Viterbi
+ 
+Corpus for training:  CoNLL2009-ST-English-development-pos.txt
+               Words: 445
+     Unique POS-tags: 47
+        Unique words: 6085
+ 
+Corpus for tagging:   CoNLL2009-ST-test-words.txt
+               Words: 60075
+ 
+Accuracy:  N/A
+Number times word missing:  0
+------------------------------------------
